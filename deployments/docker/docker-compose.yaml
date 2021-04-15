@@ -23,4 +23,4 @@ barter:
   - |
     echo "< Running the academy application >"
     cd academy && python manage.py migrate --run-syncdb
-    python manage.py runserver 0.0.0.0:5000 --insecure
+    python manage.py runserver 0.0.0.0:5000 --noreload
